@@ -22,6 +22,7 @@ mix
     .extract(['vue', 'vue-router', 'vuex'])
     .webpackConfig({
         output: {
+            publicPath: './' + itemsName + '/',
             chunkFilename: 'js/[name].[chunkhash].js',
         },
         resolve: {
