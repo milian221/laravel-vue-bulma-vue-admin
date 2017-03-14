@@ -34,11 +34,10 @@ mix
                 'plotly.js': 'plotly.js/dist/plotly'
             }
         }
-    })
-;
-mix.version()
+    });
 
 if (mix.config.inProduction) {
+    mix.version()
 } else {
     mix.sourceMaps()
 }
