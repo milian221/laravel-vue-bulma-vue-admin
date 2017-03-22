@@ -29,7 +29,7 @@
     "watch"       : "node node_modules/cross-env/dist/bin/cross-env.js ITEMS_NAME=lyu NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=./webpack.config.js",
     "watch-poll"  : "node node_modules/cross-env/dist/bin/cross-env.js ITEMS_NAME=lyu NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --watch-poll --progress --hide-modules --config=./webpack.config.js",
     "hot"         : "node node_modules/cross-env/dist/bin/cross-env.js ITEMS_NAME=lyu NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=./webpack.config.js",
-    "production"  : "node node_modules/cross-env/dist/bin/cross-env.js ITEMS_NAME=lyu NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=./webpack.config.js",
+    "production"  : "node node_modules/cross-env/dist/bin/cross-env.js ITEMS_NAME=lyu NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=./webpack.config.js"
   },
   "dependencies": {
     "animate.css": "3.5.2",
@@ -69,10 +69,7 @@
     "vue-router": "^2.3.0",
     "vuex": "^2.2.1",
     "vuex-router-sync": "^4.1.2",
-    "wysiwyg.css": "0.0.2"
-  },
-  "devDependencies": {
-    "axios": "^0.15.3",
+    "wysiwyg.css": "0.0.2",
     "babel-preset-react": "^6.23.0",
     "bootstrap-sass": "^3.3.7",
     "jquery": "^3.1.1",

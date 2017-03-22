@@ -1,6 +1,5 @@
 const path = require('path');
 const {mix} = require('laravel-mix');
-
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -35,7 +34,6 @@ mix
             }
         }
     });
-
 if (mix.config.inProduction) {
     mix.version()
 } else {
